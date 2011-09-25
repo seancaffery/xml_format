@@ -1,0 +1,7 @@
+require 'nokogiri'
+
+input_file_name = ARGV[0]
+output_file_name = ARGV[1]
+
+doc = Nokogiri::XML.parse(File.open(input_file_name))
+File.open(output_file_name, "w+"){|f| f.puts doc.to_s }
