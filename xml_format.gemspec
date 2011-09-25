@@ -3,9 +3,9 @@ require File.expand_path('../lib/xml_format/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Sean Caffery"]
-  gem.email         = ["sean.caffery@c3businesssolutions.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.email         = ["sean.caffery@lineonpoint.com"]
+  gem.description   = %q{A basic formatter XML}
+  gem.summary       = %q{}
   gem.homepage      = ""
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
@@ -13,5 +13,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "xml_format"
   gem.require_paths = ["lib"]
+  gem.add_dependency('nokogiri')
   gem.version       = XmlFormat::VERSION
 end
