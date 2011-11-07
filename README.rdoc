@@ -1,0 +1,13 @@
+== XML Format
+A really simple XML formatter.
+
+Turns
+
+  <not-awesome><xml>data</xml></not-awesome>
+
+into
+
+  <?xml version="1.0"?>
+  <not-awesome>
+    <xml>data</xml>
+  </not-awesome>
