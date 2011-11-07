@@ -11,3 +11,6 @@ into
   <not-awesome>
     <xml>data</xml>
   </not-awesome>
+
+== Usage
+  xml_format < poorly_formatted.xml > awesomely_formatted.xml
