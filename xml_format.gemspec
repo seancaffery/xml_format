@@ -3,8 +3,8 @@ require File.expand_path('../lib/xml_format/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Sean Caffery"]
-  gem.email         = ["sean.caffery@lineonpoint.com"]
-  gem.description   = %q{A basic formatter XML}
+  gem.email         = ["sean@lineonpoint.com"]
+  gem.description   = %q{A super basic XML formatter}
   gem.summary       = %q{}
   gem.homepage      = ""
 
